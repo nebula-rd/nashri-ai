@@ -1,19 +1,19 @@
-import Hero from '../components/landing/Hero'
-import TrustedBy from '../components/landing/TrustedBy'
-import AITools from '../components/landing/AITools'
-import Features from '../components/landing/Features'
-import GalleryPreview from '../components/landing/GalleryPreview'
-import HowItWorks from '../components/landing/HowItWorks'
-import Pricing from '../components/landing/Pricing'
-import FAQ from '../components/landing/FAQ'
-import Testimonials from '../components/landing/Testimonials'
-import CTA from '../components/landing/CTA'
-import Footer from '../components/landing/Footer'
+import Hero from '../components/aterrizaje/Hero'
+import TrustedBy from '../components/aterrizaje/TrustedBy'
+import AITools from '../components/aterrizaje/AITools'
+import Features from '../components/aterrizaje/Features'
+import GalleryPreview from '../components/aterrizaje/GalleryPreview'
+import HowItWorks from '../components/aterrizaje/HowItWorks'
+import Pricing from '../components/aterrizaje/Pricing'
+import FAQ from '../components/aterrizaje/FAQ'
+import Testimonials from '../components/aterrizaje/Testimonials'
+import CTA from '../components/aterrizaje/CTA'
+import Footer from '../components/aterrizaje/Footer'
 import '../styles/pages/Landing.css'
 
 export default function Landing() {
   return (
-    <div className="landing-page">
+    <>
       <Hero />
       <TrustedBy />
       <AITools />
@@ -25,6 +25,6 @@ export default function Landing() {
       <Testimonials />
       <CTA />
       <Footer />
-    </div>
+    </>
   )
 }
